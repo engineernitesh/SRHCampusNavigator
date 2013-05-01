@@ -1,0 +1,33 @@
+<%= form_tag do |f| %>
+  
+  <table>
+	  <tr>
+		  <div class="field">
+			<td align = "center"><%= label_tag :"Start Location :" %></td>
+			<td><%= select_tag :from, options_for_select(@location_array) %></td>
+		  </div>
+	  </tr>
+	  <tr>
+		  <div class="field">
+			<td align = "center"><%= label_tag :"Destination    :" %></td>
+			<td><%= select_tag :to, options_for_select(@location_array) %></td>
+		  </div>
+	  </tr>
+	  <tr>
+		<td></td>
+		<td align = "center"><%=  radio_button_tag :search_type, 'location', checked = true %>&nbspLocation Based&nbsp</td>
+		<td align = "center"><%=  radio_button_tag :search_type, 'activity' %>&nbspActivity Based&nbsp</td>
+	  </tr>
+	  <tr>
+		<td align = "center"><%= label_tag :"Select Activity :" %></td>
+		<td><%= select_tag :activity, options_for_select(@activity_array) %></td>
+	  </tr>
+	  <tr>
+		  <div class="actions">
+			<td></td>
+			<td><%= submit_tag "Search Route" %></td>
+		  </div>
+	  </tr>
+  </table>
+<% end %>
+
