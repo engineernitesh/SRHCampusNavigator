@@ -10,6 +10,7 @@ gem 'neography'
 gem 'geokit'
 gem 'geocoder'
 gem 'heroku'
+gem 'sqlite3'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -30,7 +31,7 @@ gem 'jquery-rails'
 
 # To use Jbuilder templates for JSON
 # gem 'jbuilder'
-
+a
 # Use unicorn as the app server
 # gem 'unicorn'
 

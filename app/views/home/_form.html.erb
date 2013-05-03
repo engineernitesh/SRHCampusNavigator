@@ -1,31 +1,31 @@
 <%= form_tag do |f| %>
   
-  <table align="center">
+  <table>
 	  <tr>
 		  <div class="field">
-			<td><%= label_tag :"Start Location/Current Location" %></td>
-			<td><%= select_tag :from, options_for_select(@location_array) %></td>
+			<td style="padding:0 25px 0 25px;"><%= label_tag :"Start Location" %></td>
+			<td style="padding:0 25px 0 25px;"><%= select_tag :from, options_for_select(@location_array) %></td>
 		  </div>
 	  </tr>
 	  <tr>
 		  <div class="field">
-			<td><%= label_tag :"Destination" %></td>
-			<td><%= select_tag :to, options_for_select(@location_array) %></td>
+			<td style="padding:0 25px 0 25px;"><%= label_tag :"Destination" %></td>
+			<td style="padding:0 25px 0 25px;"><%= select_tag :to, options_for_select(@location_array) %></td>
 		  </div>
 	  </tr>
 	  <tr>
-		<td>Search Route On</td>
-		<td class="oblique" align = "center"><%=  radio_button_tag :search_type, 'location', checked = true %>&nbspLocation Based&nbsp</td>
-		<td class="oblique" align = "center"><%=  radio_button_tag :search_type, 'activity' %>&nbspActivity Based&nbsp</td>
+		<td style="padding:0 25px 0 25px;">Select Route on</td>
+		<td align = "left" style="padding:0 25px 0 25px;"><%=  radio_button_tag :search_type, 'location', checked = true %>&nbspLocation Based&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<%=  radio_button_tag :search_type, 'activity' %>&nbspActivity Based&nbsp</td>
 	  </tr>
 	  <tr>
-		<td><%= label_tag :"Select Activity" %></td>
-		<td><%= select_tag :activity, options_for_select(@activity_array) %></td>
+		<td style="padding:0 25px 0 25px;"><%= label_tag :"Select Activity" %></td>
+		<td style="padding:0 25px 0 25px;"><%= select_tag :activity, options_for_select(@activity_array) %></td>
 	  </tr>
 	  <tr>
 		  <div class="actions">
-			<td></td>
-			<td><%= submit_tag "Search Route" %></td>
+			<td style="padding:0 25px 0 25px;"></td>
+			<td style="padding:0 25px 0 25px;"><%= submit_tag "Search Route" %></td>
 		  </div>
 	  </tr>
   </table>
