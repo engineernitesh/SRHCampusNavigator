@@ -10,9 +10,9 @@ class HomeController < ApplicationController
 		#@x = Geocoder.coordinates("Bonhoefferstrasse 13, Heidelberg, Germany")
 		#@result = request.location
 		# Get all activity available in Neo4j to fill selection box in User View
-		@activity_array = @neo.execute_query("start n=node(*) where has(n.activity) return n.activity")["data"].map{|a| a.first}.to_s.delete('[').delete(']').delete('"').split(', ').collect! {|n| n}
+		@activity_array = @neo.execute_query("start n=node(*) where has(n.activity) return n.activity")["data"].map{|a| a.first}.to_s.delete('[]"').split(', ').collect! {|n| n}
 		# Get all locations available in Neo4j to fill selection box in User View
-		@location_array = @neo.execute_query("start n=node(*) where not(n.name =~ 'Point.*') return n.name")["data"].map{|a| a.first}.to_s.delete('[').delete(']').delete('"').split(', ').collect! {|n| n}
+		@location_array = @neo.execute_query("start n=node(*) where not(n.name =~ 'Point.*') return n.name")["data"].map{|a| a.first}.to_s.delete('[]"').split(', ').collect! {|n| n}
 		# storing values of to and from parameters if they exist in request
 		from = params[:from] if params.has_key?(:from) 
 		to = params[:to] if params.has_key?(:to)
