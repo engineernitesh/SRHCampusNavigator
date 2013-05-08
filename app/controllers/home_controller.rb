@@ -2,7 +2,8 @@ class HomeController < ApplicationController
   def index
 		#@neo = Neography::Rest.new							# refrence to neo4j graph
 		@neo = Neography::Rest.new(ENV['NEO4J_URL'] || "http://localhost:7474")
-		@neo.set_node_auto_index_status(true)				# setting auto indexing true
+		@neo.set_node_auto_index_status(true)
+		@neo.set_relationship_auto_index_status(true)				# setting auto indexing true
 		@neo.add_node_auto_index_property("name")			# setting auto indexing on property "name" and "activity" because later we will do query to neo4j using these two properties
 		@neo.add_node_auto_index_property("activity")
 		#geoloc=Geokit::Geocoders::YahooGeocoder.geocode '140 Market St, San Francisco, CA'
@@ -12,7 +13,7 @@ class HomeController < ApplicationController
 		# Get all activity available in Neo4j to fill selection box in User View
 		@activity_array = @neo.execute_query("start n=node(*) where has(n.activity) return n.activity")["data"].map{|a| a.first}.to_s.delete('[]"').split(', ').collect! {|n| n}
 		# Get all locations available in Neo4j to fill selection box in User View
-		@location_array = @neo.execute_query("start n=node(*) where not(n.name =~ 'Point.*') return n.name")["data"].map{|a| a.first}.to_s.delete('[]"').split(', ').collect! {|n| n}
+		@location_array = @neo.execute_query("start n=node(*) where has(n.name) return n.name")["data"].map{|a| a.first}.to_s.delete('[]"').split(', ').collect! {|n| n}
 		# storing values of to and from parameters if they exist in request
 		from = params[:from] if params.has_key?(:from) 
 		to = params[:to] if params.has_key?(:to)

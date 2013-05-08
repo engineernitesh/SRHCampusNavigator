@@ -1,0 +1,147 @@
+5/8/13 9:28:58 PM org.neo4j.server.database.Database INFO: Loaded neo4j tuning properties from conf/neo4j.properties
+21:28:59.043 [main] INFO  neo4j.datasource - Creating new db @ /Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/data/graph.db/neostore
+21:28:59.165 [main] INFO  neo4j.neostore - [/Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/data/graph.db/neostore.nodestore.db] brickCount=0 brickSize=964683b mappedMem=96468992b (storeSize=0b)
+21:28:59.169 [main] INFO  neo4j.neostore - /Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/data/graph.db/neostore.nodestore.db hit=1 miss=0 switches=0 ooe=0
+21:28:59.192 [main] INFO  neo4j.neostore - [/Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/data/graph.db/neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+21:28:59.196 [main] INFO  neo4j.neostore - [/Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/data/graph.db/neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+21:28:59.197 [main] INFO  neo4j.neostore - /Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/data/graph.db/neostore.relationshiptypestore.db.names hit=0 miss=0 switches=0 ooe=0
+21:28:59.198 [main] INFO  neo4j.neostore - /Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/data/graph.db/neostore.relationshiptypestore.db hit=0 miss=0 switches=0 ooe=0
+21:28:59.201 [main] INFO  neo4j.neostore - [/Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/data/graph.db/neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+21:28:59.201 [main] INFO  neo4j.neostore - [/Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/data/graph.db/neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+21:28:59.202 [main] INFO  neo4j.neostore - [/Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/data/graph.db/neostore.propertystore.db.strings] brickCount=0 brickSize=295680b mappedMem=295698432b (storeSize=128b)
+21:28:59.202 [main] INFO  neo4j.neostore - [/Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/data/graph.db/neostore.propertystore.db.index.keys] brickCount=0 brickSize=1026b mappedMem=1048576b (storeSize=38b)
+21:28:59.203 [main] INFO  neo4j.neostore - [/Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/data/graph.db/neostore.propertystore.db.index] brickCount=0 brickSize=10485b mappedMem=1048576b (storeSize=0b)
+21:28:59.204 [main] INFO  neo4j.neostore - [/Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/data/graph.db/neostore.propertystore.db.arrays] brickCount=0 brickSize=334464b mappedMem=334495744b (storeSize=128b)
+21:28:59.206 [main] INFO  neo4j.neostore - [/Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/data/graph.db/neostore.propertystore.db] brickCount=0 brickSize=3470773b mappedMem=347078656b (storeSize=0b)
+21:28:59.208 [main] INFO  neo4j.neostore - [/Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/data/graph.db/neostore.relationshipstore.db] brickCount=0 brickSize=4257198b mappedMem=425721856b (storeSize=0b)
+21:28:59.208 [main] INFO  neo4j.neostore - [/Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/data/graph.db/neostore.nodestore.db] brickCount=0 brickSize=96462b mappedMem=96468992b (storeSize=9b)
+21:28:59.209 [main] INFO  neo4j.neostore - [/Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/data/graph.db/neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+21:28:59.215 [main] INFO  neo4j.neostore - /Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/data/graph.db/neostore.relationshiptypestore.db.names hit=0 miss=0 switches=0 ooe=0
+21:28:59.217 [main] INFO  neo4j.neostore - /Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/data/graph.db/neostore.relationshiptypestore.db hit=0 miss=0 switches=0 ooe=0
+21:28:59.219 [main] INFO  neo4j.neostore - /Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/data/graph.db/neostore.propertystore.db.strings hit=0 miss=0 switches=0 ooe=0
+21:28:59.221 [main] INFO  neo4j.neostore - /Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/data/graph.db/neostore.propertystore.db.index.keys hit=0 miss=0 switches=0 ooe=0
+21:28:59.223 [main] INFO  neo4j.neostore - /Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/data/graph.db/neostore.propertystore.db.index hit=0 miss=0 switches=0 ooe=0
+21:28:59.225 [main] INFO  neo4j.neostore - /Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/data/graph.db/neostore.propertystore.db.arrays hit=0 miss=0 switches=0 ooe=0
+21:28:59.226 [main] INFO  neo4j.neostore - /Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/data/graph.db/neostore.propertystore.db hit=0 miss=0 switches=0 ooe=0
+21:28:59.230 [main] INFO  neo4j.neostore - /Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/data/graph.db/neostore.relationshipstore.db hit=0 miss=0 switches=0 ooe=0
+21:28:59.231 [main] INFO  neo4j.neostore - /Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/data/graph.db/neostore.nodestore.db hit=0 miss=0 switches=0 ooe=0
+21:28:59.234 [main] INFO  neo4j.neostore - /Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/data/graph.db/neostore hit=0 miss=8 switches=0 ooe=0
+21:28:59.239 [main] INFO  neo4j.neostore - [/Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/data/graph.db/neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+21:28:59.240 [main] INFO  neo4j.neostore - [/Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/data/graph.db/neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+21:28:59.241 [main] INFO  neo4j.neostore - [/Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/data/graph.db/neostore.propertystore.db.strings] brickCount=0 brickSize=295680b mappedMem=295698432b (storeSize=128b)
+21:28:59.242 [main] INFO  neo4j.neostore - [/Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/data/graph.db/neostore.propertystore.db.index.keys] brickCount=0 brickSize=1026b mappedMem=1048576b (storeSize=38b)
+21:28:59.242 [main] INFO  neo4j.neostore - [/Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/data/graph.db/neostore.propertystore.db.index] brickCount=0 brickSize=10485b mappedMem=1048576b (storeSize=0b)
+21:28:59.243 [main] INFO  neo4j.neostore - [/Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/data/graph.db/neostore.propertystore.db.arrays] brickCount=0 brickSize=334464b mappedMem=334495744b (storeSize=128b)
+21:28:59.244 [main] INFO  neo4j.neostore - [/Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/data/graph.db/neostore.propertystore.db] brickCount=0 brickSize=3470773b mappedMem=347078656b (storeSize=0b)
+21:28:59.245 [main] INFO  neo4j.neostore - [/Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/data/graph.db/neostore.relationshipstore.db] brickCount=0 brickSize=4257198b mappedMem=425721856b (storeSize=0b)
+21:28:59.245 [main] INFO  neo4j.neostore - [/Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/data/graph.db/neostore.nodestore.db] brickCount=0 brickSize=96462b mappedMem=96468992b (storeSize=9b)
+21:28:59.246 [main] INFO  neo4j.neostore - [/Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/data/graph.db/neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=54b)
+21:28:59.262 [main] INFO  neo4j.xafactory - Opened logical log [/Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/data/graph.db/nioneo_logical.log.1] version=0, lastTxId=1 (clean)
+5/8/13 9:28:59 PM org.neo4j.server.database.Database INFO: Successfully started database
+5/8/13 9:28:59 PM org.neo4j.server.AbstractNeoServer INFO: Starting Neo Server on port [7474] with [40] threads available
+5/8/13 9:28:59 PM org.neo4j.server.AbstractNeoServer INFO: Enabling HTTPS on port [7473]
+Logger not configured, logging to std out instead: [FINE] Adding JAXRS packages [org.neo4j.server.rest.discovery] at [/]
+5/8/13 9:29:00 PM org.neo4j.server.modules.DiscoveryModule INFO: Mounted discovery module at [/]
+Logger not configured, logging to std out instead: [FINE] Adding JAXRS packages [org.neo4j.server.rest.web] at [/db/data]
+5/8/13 9:29:00 PM org.neo4j.server.plugins.PluginManager INFO: Loaded server plugin "CypherPlugin"
+5/8/13 9:29:00 PM org.neo4j.server.plugins.PluginManager INFO: Loaded server plugin "GremlinPlugin"
+5/8/13 9:29:00 PM org.neo4j.server.modules.RESTApiModule INFO: Mounted REST API at [/db/data/]
+Logger not configured, logging to std out instead: [FINE] Adding JAXRS packages [org.neo4j.server.webadmin.rest] at [/db/manage]
+5/8/13 9:29:00 PM org.neo4j.server.modules.ManagementApiModule INFO: Mounted management API at [/db/manage/]
+5/8/13 9:29:00 PM org.neo4j.server.modules.WebAdminModule INFO: Mounted webadmin at [/webadmin]
+21:29:00.236 [main] INFO  org.mortbay.log - Logging to Logger[org.mortbay.log] via org.mortbay.log.Slf4jLog
+5/8/13 9:29:00 PM org.neo4j.server.web.Jetty6WebServer INFO: Mounting static content at [/webadmin] from [webadmin-html]
+Logger not configured, logging to std out instead: [FINE] Found [jar:file:/Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/system/lib/neo4j-server-1.8.2-static-web.jar!/webadmin-html]
+Logger not configured, logging to std out instead: [FINE] Mounting static content from [jar:file:/Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/system/lib/neo4j-server-1.8.2-static-web.jar!/webadmin-html] at [/webadmin]
+Logger not configured, logging to std out instead: [FINE] Mounting servlet at [/db/manage]
+Logger not configured, logging to std out instead: [FINE] Mounting servlet at [/db/data]
+Logger not configured, logging to std out instead: [FINE] Mounting servlet at [/]
+21:29:00.285 [main] INFO  org.mortbay.log - jetty-6.1.25
+21:29:00.354 [main] INFO  org.mortbay.log - NO JSP Support for /webadmin, did not find org.apache.jasper.servlet.JspServlet
+21:29:01.490 [main] INFO  org.mortbay.log - Started SelectChannelConnector@localhost:7474
+21:29:01.624 [main] INFO  org.mortbay.log - Started SslSocketConnector@localhost:7473
+5/8/13 9:29:01 PM org.neo4j.server.AbstractNeoServer INFO: Server started on [http://localhost:7474/]
+5/8/13 9:29:07 PM org.neo4j.server.CommunityBootstrapper INFO: Neo4j Server shutdown initiated by kill signal
+21:29:07.561 [Thread-8] INFO  org.mortbay.log - Stopped SslSocketConnector@localhost:7473
+21:29:07.561 [Thread-8] INFO  org.mortbay.log - Stopped SelectChannelConnector@localhost:7474
+5/8/13 9:29:09 PM org.neo4j.server.database.Database INFO: Loaded neo4j tuning properties from conf/neo4j.properties
+21:29:09.995 [main] INFO  neo4j.neostore - [/Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/data/graph.db/neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+21:29:10.000 [main] INFO  neo4j.neostore - [/Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/data/graph.db/neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+21:29:10.001 [main] INFO  neo4j.neostore - [/Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/data/graph.db/neostore.propertystore.db.strings] brickCount=0 brickSize=295680b mappedMem=295698432b (storeSize=128b)
+21:29:10.001 [main] INFO  neo4j.neostore - [/Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/data/graph.db/neostore.propertystore.db.index.keys] brickCount=0 brickSize=1026b mappedMem=1048576b (storeSize=38b)
+21:29:10.002 [main] INFO  neo4j.neostore - [/Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/data/graph.db/neostore.propertystore.db.index] brickCount=0 brickSize=10485b mappedMem=1048576b (storeSize=0b)
+21:29:10.003 [main] INFO  neo4j.neostore - [/Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/data/graph.db/neostore.propertystore.db.arrays] brickCount=0 brickSize=334464b mappedMem=334495744b (storeSize=128b)
+21:29:10.005 [main] INFO  neo4j.neostore - [/Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/data/graph.db/neostore.propertystore.db] brickCount=0 brickSize=3470773b mappedMem=347078656b (storeSize=0b)
+21:29:10.007 [main] INFO  neo4j.neostore - [/Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/data/graph.db/neostore.relationshipstore.db] brickCount=0 brickSize=4257198b mappedMem=425721856b (storeSize=0b)
+21:29:10.008 [main] INFO  neo4j.neostore - [/Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/data/graph.db/neostore.nodestore.db] brickCount=0 brickSize=96462b mappedMem=96468992b (storeSize=9b)
+21:29:10.008 [main] INFO  neo4j.neostore - [/Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/data/graph.db/neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=54b)
+21:29:10.023 [main] INFO  neo4j.xafactory - Opened logical log [/Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/data/graph.db/nioneo_logical.log.1] version=1, lastTxId=1 (clean)
+5/8/13 9:29:10 PM org.neo4j.server.database.Database INFO: Successfully started database
+5/8/13 9:29:10 PM org.neo4j.server.AbstractNeoServer INFO: Starting Neo Server on port [7474] with [40] threads available
+5/8/13 9:29:10 PM org.neo4j.server.AbstractNeoServer INFO: Enabling HTTPS on port [7473]
+Logger not configured, logging to std out instead: [FINE] Adding JAXRS packages [org.neo4j.server.rest.discovery] at [/]
+5/8/13 9:29:10 PM org.neo4j.server.modules.DiscoveryModule INFO: Mounted discovery module at [/]
+Logger not configured, logging to std out instead: [FINE] Adding JAXRS packages [org.neo4j.server.rest.web] at [/db/data]
+5/8/13 9:29:10 PM org.neo4j.server.plugins.PluginManager INFO: Loaded server plugin "CypherPlugin"
+5/8/13 9:29:10 PM org.neo4j.server.plugins.PluginManager INFO: Loaded server plugin "GremlinPlugin"
+5/8/13 9:29:10 PM org.neo4j.server.modules.RESTApiModule INFO: Mounted REST API at [/db/data/]
+Logger not configured, logging to std out instead: [FINE] Adding JAXRS packages [org.neo4j.server.webadmin.rest] at [/db/manage]
+5/8/13 9:29:10 PM org.neo4j.server.modules.ManagementApiModule INFO: Mounted management API at [/db/manage/]
+5/8/13 9:29:10 PM org.neo4j.server.modules.WebAdminModule INFO: Mounted webadmin at [/webadmin]
+21:29:10.967 [main] INFO  org.mortbay.log - Logging to Logger[org.mortbay.log] via org.mortbay.log.Slf4jLog
+5/8/13 9:29:10 PM org.neo4j.server.web.Jetty6WebServer INFO: Mounting static content at [/webadmin] from [webadmin-html]
+Logger not configured, logging to std out instead: [FINE] Found [jar:file:/Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/system/lib/neo4j-server-1.8.2-static-web.jar!/webadmin-html]
+Logger not configured, logging to std out instead: [FINE] Mounting static content from [jar:file:/Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/system/lib/neo4j-server-1.8.2-static-web.jar!/webadmin-html] at [/webadmin]
+Logger not configured, logging to std out instead: [FINE] Mounting servlet at [/db/manage]
+Logger not configured, logging to std out instead: [FINE] Mounting servlet at [/db/data]
+Logger not configured, logging to std out instead: [FINE] Mounting servlet at [/]
+21:29:11.012 [main] INFO  org.mortbay.log - jetty-6.1.25
+21:29:11.084 [main] INFO  org.mortbay.log - NO JSP Support for /webadmin, did not find org.apache.jasper.servlet.JspServlet
+21:29:12.237 [main] INFO  org.mortbay.log - Started SelectChannelConnector@localhost:7474
+21:29:12.367 [main] INFO  org.mortbay.log - Started SslSocketConnector@localhost:7473
+5/8/13 9:29:12 PM org.neo4j.server.AbstractNeoServer INFO: Server started on [http://localhost:7474/]
+5/8/13 9:48:24 PM org.neo4j.server.CommunityBootstrapper INFO: Neo4j Server shutdown initiated by kill signal
+21:48:24.723 [Thread-8] INFO  org.mortbay.log - Stopped SslSocketConnector@localhost:7473
+21:48:24.723 [Thread-8] INFO  org.mortbay.log - Stopped SelectChannelConnector@localhost:7474
+5/8/13 9:48:27 PM org.neo4j.server.database.Database INFO: Loaded neo4j tuning properties from conf/neo4j.properties
+21:48:27.858 [main] INFO  neo4j.neostore - [/Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/data/graph.db/neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+21:48:27.863 [main] INFO  neo4j.neostore - [/Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/data/graph.db/neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+21:48:27.864 [main] INFO  neo4j.neostore - [/Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/data/graph.db/neostore.propertystore.db.strings] brickCount=0 brickSize=295680b mappedMem=295698432b (storeSize=128b)
+21:48:27.864 [main] INFO  neo4j.neostore - [/Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/data/graph.db/neostore.propertystore.db.index.keys] brickCount=0 brickSize=1026b mappedMem=1048576b (storeSize=38b)
+21:48:27.865 [main] INFO  neo4j.neostore - [/Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/data/graph.db/neostore.propertystore.db.index] brickCount=0 brickSize=10485b mappedMem=1048576b (storeSize=0b)
+21:48:27.866 [main] INFO  neo4j.neostore - [/Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/data/graph.db/neostore.propertystore.db.arrays] brickCount=0 brickSize=334464b mappedMem=334495744b (storeSize=128b)
+21:48:27.868 [main] INFO  neo4j.neostore - [/Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/data/graph.db/neostore.propertystore.db] brickCount=0 brickSize=3470773b mappedMem=347078656b (storeSize=0b)
+21:48:27.870 [main] INFO  neo4j.neostore - [/Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/data/graph.db/neostore.relationshipstore.db] brickCount=0 brickSize=4257198b mappedMem=425721856b (storeSize=0b)
+21:48:27.871 [main] INFO  neo4j.neostore - [/Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/data/graph.db/neostore.nodestore.db] brickCount=0 brickSize=96462b mappedMem=96468992b (storeSize=9b)
+21:48:27.872 [main] INFO  neo4j.neostore - [/Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/data/graph.db/neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=54b)
+21:48:27.892 [main] INFO  neo4j.xafactory - Opened logical log [/Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/data/graph.db/nioneo_logical.log.1] version=2, lastTxId=1 (clean)
+5/8/13 9:48:28 PM org.neo4j.server.database.Database INFO: Successfully started database
+5/8/13 9:48:28 PM org.neo4j.server.AbstractNeoServer INFO: Starting Neo Server on port [7474] with [40] threads available
+5/8/13 9:48:28 PM org.neo4j.server.AbstractNeoServer INFO: Enabling HTTPS on port [7473]
+Logger not configured, logging to std out instead: [FINE] Adding JAXRS packages [org.neo4j.server.rest.discovery] at [/]
+5/8/13 9:48:28 PM org.neo4j.server.modules.DiscoveryModule INFO: Mounted discovery module at [/]
+Logger not configured, logging to std out instead: [FINE] Adding JAXRS packages [org.neo4j.server.rest.web] at [/db/data]
+5/8/13 9:48:28 PM org.neo4j.server.plugins.PluginManager INFO: Loaded server plugin "CypherPlugin"
+5/8/13 9:48:28 PM org.neo4j.server.plugins.PluginManager INFO: Loaded server plugin "GremlinPlugin"
+5/8/13 9:48:28 PM org.neo4j.server.modules.RESTApiModule INFO: Mounted REST API at [/db/data/]
+Logger not configured, logging to std out instead: [FINE] Adding JAXRS packages [org.neo4j.server.webadmin.rest] at [/db/manage]
+5/8/13 9:48:28 PM org.neo4j.server.modules.ManagementApiModule INFO: Mounted management API at [/db/manage/]
+5/8/13 9:48:28 PM org.neo4j.server.modules.WebAdminModule INFO: Mounted webadmin at [/webadmin]
+21:48:28.873 [main] INFO  org.mortbay.log - Logging to Logger[org.mortbay.log] via org.mortbay.log.Slf4jLog
+5/8/13 9:48:28 PM org.neo4j.server.web.Jetty6WebServer INFO: Mounting static content at [/webadmin] from [webadmin-html]
+Logger not configured, logging to std out instead: [FINE] Found [jar:file:/Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/system/lib/neo4j-server-1.8.2-static-web.jar!/webadmin-html]
+Logger not configured, logging to std out instead: [FINE] Mounting static content from [jar:file:/Users/ramsharangj/Documents/SRHCampusNavigator/neo4j/system/lib/neo4j-server-1.8.2-static-web.jar!/webadmin-html] at [/webadmin]
+Logger not configured, logging to std out instead: [FINE] Mounting servlet at [/db/manage]
+Logger not configured, logging to std out instead: [FINE] Mounting servlet at [/db/data]
+Logger not configured, logging to std out instead: [FINE] Mounting servlet at [/]
+21:48:28.923 [main] INFO  org.mortbay.log - jetty-6.1.25
+21:48:29.059 [main] INFO  org.mortbay.log - NO JSP Support for /webadmin, did not find org.apache.jasper.servlet.JspServlet
+21:48:30.193 [main] INFO  org.mortbay.log - Started SelectChannelConnector@localhost:7474
+21:48:30.340 [main] INFO  org.mortbay.log - Started SslSocketConnector@localhost:7473
+5/8/13 9:48:30 PM org.neo4j.server.AbstractNeoServer INFO: Server started on [http://localhost:7474/]
+Logger not configured, logging to std out instead: [FINEST] org.neo4j.server.webadmin.rest.ShellSession@5d9d277e
+Logger not configured, logging to std out instead: [FINEST] org.neo4j.server.webadmin.console.GremlinSession@257f6796
+Logger not configured, logging to std out instead: [FINEST] org.neo4j.server.webadmin.rest.ShellSession@5d9d277e
+Logger not configured, logging to std out instead: [FINE] start n=node(*) where not(n.name =~ 'Point.*') return n.name
+Logger not configured, logging to std out instead: [FINEST] org.neo4j.server.webadmin.rest.ShellSession@5d9d277e
+Logger not configured, logging to std out instead: [FINE] 
